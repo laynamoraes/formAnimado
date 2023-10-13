@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Ajude a Causa</title>
+  </head>
+  <body>
+    <section>
+      <div class="leaves">
+        <div class="set">
+          <div>
+            <img src="img/folha01.png" alt="" />
+          </div>
+          <div>
+            <img src="img/folha02.png" alt="" />
+          </div>
+          <div>
+            <img src="img/folha03.png" alt="" />
+          </div>
+          <div>
+            <img src="img/folha04.png" alt="" />
+          </div>
+          <div>
+            <img src="img/folha05.png" alt="" />
+          </div>
+          <div>
+            <img src="img/folha01.png" alt="" />
+          </div>
+          <div>
+            <img src="img/folha02.png" alt="" />
+          </div>
+          <div>
+            <img src="img/folha03.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <img src="./img/bg.jpg" class="bg" alt="" />
+      <img src="./img/arvores.png" class="trees" alt="" />
+      <img src="./img/girl.png" class="girl" alt="" />
+
+      <div id="container">
+        <form
+          method="post"
+          action="http://localhost:3000/registrations"
+          target="_blank"
+        >
+          <h3>AJUDE A CAUSA</h3>
+          <p>Participe da nossa corrida anual e contribua com a nossa causa!</p>
+
+          <div>
+            <label for="nome" class="titulo"> Nome: </label>
+            <input
+              type="text"
+              name="name"
+              id="nome"
+              placeholder="Digite seu nome completo"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="idade" class="titulo"> Idade: </label>
+            <input
+              type="number"
+              name="age"
+              id="idade"
+              placeholder="Informe sua idade"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="email" class="titulo"> E-mail: </label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Digite seu e-mail"
+              required
+            />
+          </div>
+
+          <div>
+            <label class="titulo"> Tamanho da camiseta:</label>
+            <br />
+
+            <div class="opcoes">
+              <div>
+                <input
+                  type="radio"
+                  name="size"
+                  id="camisetaP"
+                  value="P"
+                  required
+                />
+                <label for="camisetaP">P</label>
+              </div>
+
+              <div>
+                <input type="radio" name="size" id="camisetaM" value="M" />
+                <label for="camisetaM">M</label>
+              </div>
+
+              <div>
+                <input type="radio" name="size" id="camisetaG" value="G" />
+                <label for="camisetaG">G</label>
+              </div>
+
+              <div>
+                <input type="radio" name="size" id="camisetaGG" value="GG" />
+                <label for="camisetaGG">GG</label>
+              </div>
+
+              <div>
+                <input type="radio" name="size" id="camisetaXG" value="XG" />
+                <label for="camisetaXG">XG</label>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <label class="titulo"> Categoria de inscrição:</label>
+            <br />
+            <div class="opcoes">
+              <div>
+                <input
+                  type="radio"
+                  name="category"
+                  id="corrida3Km"
+                  value="3RUN"
+                  required
+                />
+                <label for="corrida3Km">Corrida 3km</label>
+              </div>
+
+              <div>
+                <input
+                  type="radio"
+                  name="category"
+                  id="corrida5Km"
+                  value="5RUN"
+                />
+                <label for="corrida5Km">Corrida 5km</label>
+              </div>
+
+              <div>
+                <input
+                  type="radio"
+                  name="category"
+                  id="caminhada4Km"
+                  value="4WALK"
+                />
+                <label for="caminhada4Km">Caminhada 4km</label>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <label for="doacao" class="titulo">Valor da doação (R$):</label>
+            <input
+              type="number"
+              name="donation"
+              id="doacao"
+              placeholder="Informe o valor da sua doação"
+              required
+            />
+          </div>
+
+          <button type="submit">ENVIAR INSCRIÇÃO</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
