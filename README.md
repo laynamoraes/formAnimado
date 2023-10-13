@@ -9,6 +9,12 @@
 
 <br><br>
 
+
+
+https://github.com/laynamoraes/formAnimado/assets/111987747/2357968d-9919-4165-91fe-6b905c5fe304
+
+<br>
+
 ## 💻 Projeto
 
 Trata-se de um sistema de registro para acompanhar e receber inscrições dos participantes do evento "Ajude a Causa". Tal desafio foi proposto na aula do curso **Vem Ser Tech - Front-End da Ada Tech em parceria com o iFood** e deve ser feito através de um formulário para aplicar os conceitos aprendidos.
